@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Merry Christmas, Please Don't Call - Lyrics Sync</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🎵 Merry Christmas, Please Don't Call</h1>
+            <p>by Bleachers</p>
+        </header>
+
+        <div class="player-section">
+            <audio id="audioPlayer" controls>
+                <source src="audio/song.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            
+            <div class="player-controls">
+                <button id="playBtn" class="btn">Play</button>
+                <button id="pauseBtn" class="btn">Pause</button>
+                <div class="time-display">
+                    <span id="currentTime">0:00</span> / <span id="duration">0:00</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="lyrics-container">
+            <div id="lyricsDisplay" class="lyrics-display">
+                <!-- Lyrics will be dynamically populated here -->
+            </div>
+        </div>
+
+        <footer>
+            <p>Sync your audio file in the audio element above</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
